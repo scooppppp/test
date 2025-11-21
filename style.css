@@ -1,0 +1,543 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+      background: url('Assets/Menu Background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+    text-align: center;
+  }
+
+header {
+    display: flex;
+      justify-content: space-between;
+        align-items: center;
+           padding: 20px 60px;
+      background-color: black;
+    opacity: 70%;
+}
+
+header .logo img {
+  height: 60px;
+  size: 100cm;
+}
+
+nav a {
+  color: white;
+      text-decoration: none;
+    margin: 0 15px;
+  font-weight: 700;
+transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 4em;
+  color: #00bfff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3em;
+  max-width: 600px;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+
+.play-button {
+  background: #00bfff;
+  color: black;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease;
+}
+
+.play-button:hover {
+  background: #0099cc;
+}
+
+.play-button img {
+  height: 25px;
+}
+
+.about {
+  background-color: black;
+  opacity: 80%;
+  padding: 80px 15%;
+}
+
+.about h2 {
+  color: #00bfff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1em;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: black;
+  opacity: 80%;
+  padding: 25px;
+  color: #aaa;
+  font-size: 0.9em;
+}
+/* Reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+	font-family: 'Orbitron', sans-serif;
+	background-color: #0a0a0a;
+  color: #fff;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00ffd5;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav ul li a:hover {
+  color: #00ffd5;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+	background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Header */
+header {
+ font-family: 'Orbitron', sans-serif;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background-color: #1b1b1b;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  color: #00ffd5;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+header nav ul li a {
+  font-family: 'Orbitron', sans-serif;
+	color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #00ffd5;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* Store Container */
+.store-container {
+  display: flex;
+  gap: 50px;
+  padding: 50px 60px;
+  flex-wrap: wrap;
+}
+
+/* Game Info */
+.game-info {
+  flex: 1 1 400px;
+}
+
+.game-info h1 {
+  font-family: 'Orbitron', sans-serif;
+	font-size: 2.8rem;
+  color: #00ffd5;
+  margin-bottom: 10px;
+}
+
+.release-date {
+  color: black;
+  opacity: 80%;
+  margin-bottom: 20px;
+}
+
+.price {
+ font-family: 'Orbitron', sans-serif;
+	font-size: 2rem;
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.buy-button, .wishlist-button {
+ font-family: 'Orbitron', sans-serif;
+	padding: 15px 35px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.buy-button {
+  background-color: #00ffd5;
+  color: #000;
+}
+
+.buy-button:hover {
+  background-color: #00b3a5;
+  color: #fff;
+}
+
+.wishlist-button {
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.wishlist-button:hover {
+  background-color: #444;
+}
+
+/* Tags */
+.tags {
+  margin-bottom: 30px;
+}
+
+.tags span {
+  font-family: 'Orbitron', sans-serif;
+	background-color: #2e2e2e;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+/* Media Section */
+.media {
+  flex: 1 1 500px;
+}
+
+.media h2 {
+  font-family: 'Orbitron', sans-serif;
+	font-size: 1.8rem;
+  color: #00ffd5;
+  margin-bottom: 15px;
+}
+
+.screenshots {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.screenshots img {
+  height: 150px;
+  border-radius: 5px;
+}
+
+.requirements {
+  list-style: none;
+}
+
+.requirements li {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  font-family: 'Orbitron', sans-serif;
+background-color: #1b1b1b;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.95rem;
+  color: #888;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .store-container {
+    flex-direction: column;
+  }
+
+  .media {
+    margin-top: 30px;
+  }
+
+  .screenshots {
+    justify-content: flex-start;
+  }
+}
+
+/* ===== ABOUT PAGE ===== */
+
+/* Hero section */
+.title {
+  background-image: url('about-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+.title .overlay {
+  background: black;
+  opacity: 60%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.title h1 {
+  font-size: 3rem;
+  color: #00ffd5;
+}
+
+.title p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+/* Mission section */
+.about-content {
+  background-color: #0f0f0f;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-content .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+/* Active nav link */
+nav ul li a.active {
+  color: #00ffd5;
+  border-bottom: 2px solid #00ffd5;
+}
+/* contact page */
+
+/* Hero */
+.contact-hero {
+  background-image: url('contact-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.contact-hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.contact-hero h1 {
+  font-size: 48px;
+  color: #00ffd5;
+}
+
+.contact-hero p {
+  font-size: 19.2px;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #0f0f0f;
+  padding: 70px 20px;
+}
+.contact-section ul a:link{
+color: #00ffd5;
+
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+}
+
+.contact-info h2 {
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contact-info ul li {
+  color: #aaa;
+  margin: 8px 0;
+}
+
+.socials a {
+  color: #00ffd5;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.socials a:hover {
+  color: #00b3a5;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1 1 350px;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  color: #00ffd5;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #111;
+  color: #fff;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  background: #00ffd5;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #00b3a5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
